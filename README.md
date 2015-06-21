@@ -6,6 +6,7 @@ Includes:
 * An R script, titled "run_analysis.R" to write the tidy data set from the raw data
 * The original UCI HAR Dataset, in a folder titled "data"
 * The tidy data output, titled "wearable-tidy-data.txt" 
+* A codebook including information on the tidy data file, as well the complete original info from the raw data 
 
 ## The Script
 The run analyis script takes the raw data, combines and cleans it, and then outputs a tidy data set with the averages for the all measurements on the mean and standard deviation, by subject and activity. 
