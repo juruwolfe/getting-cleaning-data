@@ -8,5 +8,5 @@ A repo for the final output the week 3 class project. Includes:
 The run analyis script takes the raw data, combines and cleans it, and then outputs a tidy data set with the averages for the all measurements on the mean and standard deviation, by subject and activity. 
 
 ### How it works:
-1. Gets all of the data from the original set. *Note:* the files from the original set must be in a folder called 'data' 
+1. Gets all of the data from the original set. _Note:_ the files from the original set must be in a folder called 'data' 
 2. 
