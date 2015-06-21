@@ -11,7 +11,9 @@ Includes:
 The run analyis script takes the raw data, combines and cleans it, and then outputs a tidy data set with the averages for the all measurements on the mean and standard deviation, by subject and activity. 
 
 ### How it works:
-**Run_analyis()**
+
+#### Run_analyis()
+
 1. Gets all of the data from the original set and sets each one as a variable. **Note:** the files from the original set must be in a folder called 'data' 
 2. Using cbind (so combining side by side), combines the xTest and xTraining data. 
 3. Sets the column names of this new data frame to the second column of the features file (which includes the names for all the different types of measurements)
@@ -28,7 +30,8 @@ The run analyis script takes the raw data, combines and cleans it, and then outp
 13. Remove the last two columns. Since the aggregate function includes subject and activity as the first two column, we no longer need them at the end (also, Activity is now all null, as teh aggreate function tried to run the mean function on the string, hence the error messages)
 14. Write our tidy data to a txt file, setting the row.name argument to false. 
 
-**getColumnNames()**
+#### getColumnNames()
+
 1. Start with an empty variable called stringColNames.
 2. Create a vector, colnames, that hold all possible column names from the data 
 3. Find the location of each column name that includes the string passed in the argument (either 'Mean' or 'Std').
