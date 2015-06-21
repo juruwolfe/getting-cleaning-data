@@ -3,7 +3,9 @@ Information explaining the tidy data set:
 The first column, activity, tells the action the subject was performing when the measurements were recorded. 
 The second column, subject, provides the numerical ID for the subject from the test. 
 The following columns names the type of measurements recorded (such as the mean of the angle of the acceleration)
-Each value is the average fof that type, by subject and activity from the raw data. Only measurements on the mean or standard deviation were included. 
+Each value is the average of that type, by subject and activity from the raw data. Only measurements on the mean or standard deviation were included. As stated below (regarding units):
+"-The units used for the accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/seg2).
+- The gyroscope units are rad/seg."
 
 Codebook from the original data: 
 ===================================================================================================
